@@ -1,21 +1,27 @@
 {
     "name": "ufoproger/yii2-file-attachment",
-    "description": ".",
+    "description": "Package",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension"," file"," file upload"," file attachment"," widget"],
+    "keywords": [
+        "yii2"
+    ],
     "license": "MIT",
     "authors": [
         {
             "name": "Mikhail Snetkov",
-            "email": "ufoproger@gmail.com"
+            "email": "ufoproger@gmail.com",            
+            "homepage": "https://github.com/ufoproger/yii-file-attachment",
+            "role": "Developer"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
-        "yiisoft/yii2": "~2.0.0"
+        "yiisoft/yii2": "~2.0.0",
+        "lpology/simple-ajax-uploader": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "ufoproger\\fileattachment\\": ""
+            "ufoproger\\fileattachment\\": "src"
         }
     }
-}
+}    

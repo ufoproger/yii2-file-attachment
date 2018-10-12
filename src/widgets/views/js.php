@@ -1,0 +1,1 @@
+console.log("id1 = <?= $id1 ?>, id2 = <?= $id2 ?>");
