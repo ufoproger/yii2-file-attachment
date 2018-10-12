@@ -1,0 +1,21 @@
+{
+    "name": "ufoproger/yii2-file-attachment",
+    "description": ".",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," file"," file upload"," file attachment"," widget"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mikhail Snetkov",
+            "email": "ufoproger@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ufoproger\\fileattachment\\": ""
+        }
+    }
+}
